@@ -17,6 +17,10 @@ $ source .venv/bin/activate
 (.venv)$ pip install -r requirements.txt
 (.venv)$ python convert_encoding.py utf-16
 (.venv)$ platform create
+  ...
+  * Project title (--title)
+  Default: Untitled Project
+  > ll_project
 (.venv)$ platform push
   ...
   Validating configuration files
