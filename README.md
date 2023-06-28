@@ -16,6 +16,7 @@ $ source .venv/bin/activate
 (.venv)$ pip install --upgrade pip
 (.venv)$ pip install -r requirements.txt
 (.venv)$ python convert_encoding.py utf-16
+(.venv)$ git commit -am "Set .platform.app.yaml encoding to utf-16."
 (.venv)$ platform create
   ...
   * Project title (--title)
@@ -31,7 +32,7 @@ $ source .venv/bin/activate
    ! [remote rejected] HEAD -> main (invalid configuration files)
   error: failed to push some refs to 'git.us-2.platform.sh:i7lrxpu6t4pwo.git'
 (.venv)$ python convert_encoding.py utf-8
-(.venv)$ git commit -am "Updated encoding to utf-8."
+(.venv)$ git commit -am "Set .platform.app.yaml encoding to utf-8."
 (.venv)$ platform push
   ...
   deployment succeeds
